@@ -1,0 +1,26 @@
+{
+  "name": "brutality",
+  "version": "1.0.0",
+  "description": "Pre-entreega final de proyecto para Desarrollo web. \r Mi proyecto es la tienda online de una marca de ropa diriida al público skater y punk rock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/sass.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indirasosa/brutality_preentregafinal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indirasosa/brutality_preentregafinal/issues"
+  },
+  "homepage": "https://github.com/indirasosa/brutality_preentregafinal#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
